@@ -3,6 +3,7 @@ import './App.css';
 
 import Header from './components/header/Header';
 import Menu from './components/menu/Menu';
+import HeaderBlock from './components/headerBlock/HeaderBlock';
 
 import { BrowserRouter as Router } from 'react-router-dom';
 // , Switch, Route, Redirect
@@ -16,6 +17,7 @@ const App = () => {
       <div className="App">
         <Header setIsMenuOpen={setIsMenuOpen} isMenuOpen={isMenuOpen} />
         {isMenuOpen && <Menu />}
+        <HeaderBlock />
       </div>
     </Router>
   );

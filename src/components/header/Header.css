@@ -21,6 +21,7 @@
 
 .header__links {
   display: flex;
+  align-items: center;
   gap: 15px;
 }
 
@@ -35,6 +36,7 @@
 .header__right {
   display: flex;
   align-items: center;
+  justify-content: center;
   gap: 15px;
 }
 
